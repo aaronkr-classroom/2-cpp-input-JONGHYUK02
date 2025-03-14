@@ -10,11 +10,11 @@ int main()
 
 	if (num1 > num2)
 	{
-		std::cout << "num1 is bigger.";
+		std::cout << num1 << " is bigger than." << num2;
 	}
 	else
 	{
-		std::cout << "num2 is bigger.";
+		std::cout << num2 << "is bigger than." << num1;
 	}
 	return 0;
 }
